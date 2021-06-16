@@ -1,23 +1,17 @@
 # Ums
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Notes
-lazy loading, advance rxjs
-swagger
+ 
+1. npm i
+2. npm start
+3. npm start server
+ 
+## During the 4 hour timebox the following was implemented:
+ 
+- User page : view, create, delete, search with some form validation
+- Group page: view, create
+- Assignment page: view groups and their users. reassign user to group
+- Example of using a Directive to make app Responsive 
+- Modular architecture with emphasis on reusability of components
+- DRY
+ 
+## Will be added in future:
+Pwa, Linting, Some sample Unit Tests, better user creating validation based on group assignment, better styling
