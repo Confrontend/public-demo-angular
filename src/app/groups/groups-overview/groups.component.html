@@ -1,0 +1,11 @@
+<button mat-raised-button (click)="openDialog()">Create Group</button>
+<mat-divider></mat-divider>
+<div class="table-container">
+  <app-base-table
+    (selectedRow)="onRowCLicked($event)"
+    [rows]="rows$ | async"
+    [columns]="columns"
+    [columnTitles]="columnTitles"
+  >
+  </app-base-table>
+</div>

@@ -1,0 +1,129 @@
+{
+  "users": [
+    {
+      "id": "7ae20e78-8518-483d-aadd-1a524a48c43d",
+      "name": "Hamed",
+      "email": "hamed@ga.com"
+    },
+    {
+      "id": "644bece6-b48c-443f-b4e1-b6508ad4d4a2",
+      "name": "Hamed",
+      "city": "Tehran",
+      "email": "a@a"
+    },
+    {
+      "id": "dbbc5f89-451f-4e08-a722-7a5696e8836f",
+      "name": "new user",
+      "city": "LA",
+      "email": "la@g"
+    },
+    {
+      "id": "e0d4fe20-5f00-445b-b680-4c1b082a2e71",
+      "name": "User bew",
+      "city": "opt",
+      "email": "sad@ds.com"
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "name": "Group 1",
+      "desc": "leo, in lobortis tellus justo sit amet"
+    },
+    {
+      "id": 2,
+      "name": "Group 2",
+      "desc": "tristique pharetra. Quisque ac libero nec ligula consectetuer rhoncus. Nullam"
+    },
+    {
+      "id": 3,
+      "name": "Group 3",
+      "desc": "Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet"
+    },
+    {
+      "id": 4,
+      "name": "Group 4",
+      "desc": "tempor diam dictum sapien. Aenean massa. Integer vitae nibh. Donec"
+    },
+    {
+      "id": 5,
+      "name": "Group 5",
+      "desc": "orci quis lectus. Nullam suscipit, est ac facilisis facilisis,"
+    },
+    {
+      "id": 6,
+      "name": "Group 6",
+      "desc": "non lorem vitae odio sagittis semper. Nam tempor diam"
+    },
+    {
+      "id": 7,
+      "name": "Group 7",
+      "desc": "metus. Aliquam erat volutpat. Nulla facilisis. Suspendisse commodo tincidunt"
+    },
+    {
+      "id": 8,
+      "name": "Group 8",
+      "desc": "a, scelerisque sed, sapien. Nunc pulvinar arcu"
+    },
+    {
+      "id": 9,
+      "name": "Group 9",
+      "desc": "amet luctus vulputate, nisi sem semper erat, in consectetuer"
+    },
+    {
+      "id": 10,
+      "name": "Group 10",
+      "desc": "luctus lobortis. Class aptent taciti sociosqu ad litora torquent"
+    },
+    {
+      "id": "89323c8f-6fbd-4b34-a7ad-ffed7a580f0f",
+      "name": "Group Hello"
+    },
+    {
+      "id": "c2b3ce05-83ce-46b0-90f4-86f65dfd3549",
+      "name": "LA Group"
+    }
+  ],
+  "assignments": [
+    {
+      "id": "1",
+      "userId": "7ae20e78-8518-483d-aadd-1a524a48c43d",
+      "groupId": "89323c8f-6fbd-4b34-a7ad-ffed7a580f0f"
+    },
+    {
+      "id": "2bb042b7-4b8c-4c40-b227-48c68d6681ae",
+      "userId": "7ae20e78-8518-483d-aadd-1a524a48c43d",
+      "groupId": 2
+    },
+    {
+      "id": "9bb9a40d-6a26-4882-8a07-bec67b15dec5",
+      "userId": "7ae20e78-8518-483d-aadd-1a524a48c43d",
+      "groupId": 2
+    },
+    {
+      "id": "8fa2a8bb-a596-4255-96fb-cdda5ef2258d",
+      "userId": "644bece6-b48c-443f-b4e1-b6508ad4d4a2",
+      "groupId": 4
+    },
+    {
+      "id": "69839166-147c-49fc-820e-fcfc9e2b8d29",
+      "userId": "dbbc5f89-451f-4e08-a722-7a5696e8836f",
+      "groupId": 4
+    },
+    {
+      "id": "933aebe0-9d2b-4648-ace5-e8af0d1418ba",
+      "userId": "dbbc5f89-451f-4e08-a722-7a5696e8836f",
+      "groupId": "c2b3ce05-83ce-46b0-90f4-86f65dfd3549"
+    },
+    {
+      "id": "adfc1850-83a0-4149-8655-e546c53c0b32",
+      "userId": "644bece6-b48c-443f-b4e1-b6508ad4d4a2",
+      "groupId": "c2b3ce05-83ce-46b0-90f4-86f65dfd3549"
+    },
+    {
+      "id": "1f58a287-5050-4568-89a6-5d53dca1b9c5",
+      "userId": "e0d4fe20-5f00-445b-b680-4c1b082a2e71",
+      "groupId": "c2b3ce05-83ce-46b0-90f4-86f65dfd3549"
+    }
+  ]
+}

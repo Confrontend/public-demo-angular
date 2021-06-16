@@ -1,0 +1,32 @@
+<button mat-raised-button (click)="openAssignUserToGroupDialog()">
+  Create Assignment
+</button>
+
+<mat-divider></mat-divider>
+<div class="table-container">
+  <app-base-table
+    [rows]="rows$ | async"
+    [columns]="columns"
+    [columnTitles]="columnTitles"
+  >
+  </app-base-table>
+</div>
+
+<ng-template #content>
+  <mat-form-field appearance="fill">
+    <mat-label>Users</mat-label>
+    <mat-select (selectionChange)="onSelectionChange('user', $event)">
+      <mat-option *ngFor="let user of users$ | async" [value]="user">
+        {{ user.name }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Groups</mat-label>
+    <mat-select (selectionChange)="onSelectionChange('group', $event)">
+      <mat-option *ngFor="let group of groups$ | async" [value]="group">
+        {{ group.name }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</ng-template>

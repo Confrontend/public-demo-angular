@@ -1,0 +1,28 @@
+<form [formGroup]="data.form">
+  <ng-container *ngIf="!data.template">
+    <ng-container *ngFor="let field of data.fields; let i = index">
+      <mat-form-field appearance="fill">
+        <mat-label>{{ field.label }}</mat-label>
+
+        <input
+          matInput
+          value="{{ field.name }}"
+          type="{{ field.type }}"
+          formControlName="{{ field.name }}"
+        />
+      </mat-form-field>
+    </ng-container>
+  </ng-container>
+
+  <ng-container *ngTemplateOutlet="data.template"> </ng-container>
+
+  <button
+    mat-button
+    color="primary"
+    [mat-dialog-close]="data.form.value"
+    disabled="{{ !data.form.valid || !!data?.customValidation}}"
+  >
+    Create {{data.customValidatio}}
+  </button>
+  <button mat-button type="button" (click)="onCancelClick()">Cancel</button>
+</form>

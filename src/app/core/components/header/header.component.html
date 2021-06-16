@@ -1,0 +1,14 @@
+<mat-toolbar>
+  <ng-container *ngFor="let menuItem of menuItems">
+    <div *appResponsive="'large'">
+      <a routerLink="{{ menuItem.path }}">
+        <button mat-button>{{ menuItem.title }}</button></a
+      >
+    </div>
+  </ng-container>
+  <div class="small-res" *appResponsive="'small'">
+    <mat-icon>menu</mat-icon>
+  </div>
+</mat-toolbar>
+
+<!-- TODO Responsive menu -->

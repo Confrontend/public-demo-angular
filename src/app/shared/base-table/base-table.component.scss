@@ -1,0 +1,33 @@
+$table-active-color: #673bb7;
+
+.demo-table {
+  overflow: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+.mat-row .mat-cell {
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  cursor: pointer;
+}
+
+.mat-row:hover .mat-cell {
+  border-color: $table-active-color;
+}
+
+.demo-row-is-clicked {
+  background-color: $table-active-color !important;
+  td {
+    color: white;
+  }
+}
+
+.mat-row:nth-child(odd) {
+  background-color: #663bb723;
+}
+
+.mat-header-cell {
+  color: white;
+  background-color: #663bb7c5;
+}

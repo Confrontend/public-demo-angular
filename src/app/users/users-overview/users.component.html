@@ -1,0 +1,16 @@
+<button mat-raised-button (click)="openDialog()">Create User</button>
+<button mat-raised-button (click)="onDeleteUser()">Delete User</button>
+
+<mat-divider></mat-divider>
+
+<app-search [searchResult]="foundUser" (onSearch)="search($event)"></app-search>
+
+<div class="table-container">
+  <app-base-table
+    (selectedRow)="onRowCLicked($event)"
+    [rows]="rows$ | async"
+    [columns]="columns"
+    [columnTitles]="columnTitles"
+  >
+  </app-base-table>
+</div>
