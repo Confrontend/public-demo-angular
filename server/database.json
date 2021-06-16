@@ -12,16 +12,16 @@
       "email": "a@a"
     },
     {
-      "id": "dbbc5f89-451f-4e08-a722-7a5696e8836f",
-      "name": "new user",
-      "city": "LA",
-      "email": "la@g"
-    },
-    {
       "id": "e0d4fe20-5f00-445b-b680-4c1b082a2e71",
       "name": "User bew",
       "city": "opt",
       "email": "sad@ds.com"
+    },
+    {
+      "id": "ada98f04-d3a8-437e-9e45-28fef95c234b",
+      "name": "gg",
+      "city": null,
+      "email": "ff@gg"
     }
   ],
   "groups": [
@@ -106,16 +106,6 @@
       "groupId": 4
     },
     {
-      "id": "69839166-147c-49fc-820e-fcfc9e2b8d29",
-      "userId": "dbbc5f89-451f-4e08-a722-7a5696e8836f",
-      "groupId": 4
-    },
-    {
-      "id": "933aebe0-9d2b-4648-ace5-e8af0d1418ba",
-      "userId": "dbbc5f89-451f-4e08-a722-7a5696e8836f",
-      "groupId": "c2b3ce05-83ce-46b0-90f4-86f65dfd3549"
-    },
-    {
       "id": "adfc1850-83a0-4149-8655-e546c53c0b32",
       "userId": "644bece6-b48c-443f-b4e1-b6508ad4d4a2",
       "groupId": "c2b3ce05-83ce-46b0-90f4-86f65dfd3549"
@@ -123,6 +113,11 @@
     {
       "id": "1f58a287-5050-4568-89a6-5d53dca1b9c5",
       "userId": "e0d4fe20-5f00-445b-b680-4c1b082a2e71",
+      "groupId": "c2b3ce05-83ce-46b0-90f4-86f65dfd3549"
+    },
+    {
+      "id": "3f434943-ea1a-43a1-9869-16fdb44cb309",
+      "userId": "ada98f04-d3a8-437e-9e45-28fef95c234b",
       "groupId": "c2b3ce05-83ce-46b0-90f4-86f65dfd3549"
     }
   ]

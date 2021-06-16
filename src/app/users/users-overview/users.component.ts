@@ -32,7 +32,7 @@ enum DisplayName {
   styleUrls: ['./users.component.scss'],
   providers: [UsersService],
 })
-export class UsersComponent implements OnInit {
+export class UsersComponent implements OnInit, OnDestroy {
   private _selectedUser: IUser = {} as IUser;
   private _dataClientSideSearch: IUser[] = {} as IUser[];
   foundUser = 'Search is case sensetive and results appear here...';
