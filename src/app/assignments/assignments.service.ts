@@ -1,6 +1,6 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { BehaviorSubject, forkJoin, Observable } from 'rxjs';
+import { BehaviorSubject, forkJoin, Observable, of } from 'rxjs';
 import { catchError, filter, map } from 'rxjs/operators';
 import { LoggerService } from '../core/services/logger.service';
 import { URL_ASSIGNMENTS, URL_GROUPS, URL_USERS } from '../shared/consts';
@@ -56,12 +56,10 @@ export class AssignmentsService {
             })
             ?.map((res) => res.name),
         }));
-
-        return mappedResult;
+        return mappedResult
       })
     );
   }
-
 
   // TODO check for already existing assignment
   createAssignment(userId: string, groupId: string): Observable<IAssignment> {
